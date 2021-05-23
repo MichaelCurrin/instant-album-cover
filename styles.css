@@ -1,0 +1,32 @@
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 20px;
+}
+
+#album-cover {
+  /* Prevent adding a white edges when adding a shadow */
+  width: 600px;
+  height: 600px;
+}
+
+h2 {
+  font-size: 100px;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.6);
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card {
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.4);
+}
